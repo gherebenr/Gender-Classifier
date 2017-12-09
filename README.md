@@ -2,7 +2,7 @@
 This is a neural network that takes as input images, and outputs the gender of the person in the picture.
 
 ### Getting Started
-1) Extract ```original_images.zip``` in the same folder as the .java and .py files.
+1) Extract "original_images.zip" in the same folder as the .java and .py files.
 2) Run: ```python preprocecss_images.py``` -  This will crop all the images and convert them into arrays.
 3) Run: ```javac GenderClassifier.java``` - This will compile the Java code.
 4) Run: ```java GenderClassifier``` - This will train and test the ANN.
@@ -24,7 +24,7 @@ Python 3 with numpy and Pillow modules.
         2) Saves all the weights to "./weights/weightsFile".
         3) Saves the weights for each node in the first hidden layer to individual files in the weights folder.
     2) Run: ```java GenderClassifier -test```
-        1) Outputs test predictions to ```GC.predictions```. Each line corresponds to a file in "./original_images/Test" and contains the certainty for each prediction and the label.
+        1) Outputs test predictions to "GC.predictions". Each line corresponds to a file in "./original_images/Test" and contains the certainty for each prediction and the label.
         2) If the "-train" argument is absent, it tries to load the weights from "./weights/weightsFile".
     3) Run: ```java GenderClassifier -cv```
         1) Performs 5 fold cross validation using the training set.
