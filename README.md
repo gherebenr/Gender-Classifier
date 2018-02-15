@@ -1,9 +1,10 @@
 # Gender Classifier
-This is a neural network which takes as input images, and outputs the gender of the person in the picture.
+Neural Network which takes as input images, and outputs the gender of the person in the picture.
 
 ### Getting Started
 1) Extract "original_images.zip" in the same folder as the .java and .py files.
-2) Run the following commands in Bash:
+2) Open a terminal and navigate to the folder where the .java and .py files are.
+3) Run the following commands:
 	1) ```python preprocess_images.py``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| This will crop all the images and convert them into arrays.
 	2) ```javac GenderClassifier.java``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| This will compile the Java code.
 	3) ```java GenderClassifier``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| This will train and test the ANN.
