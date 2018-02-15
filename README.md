@@ -36,4 +36,5 @@ This is a neural network which takes as input images, and outputs the gender of 
         1) Trains then tests the ANN. Equivalent to "java GenderClassifier -train -test".
         
 3) ***convert_weights_to_images.py*** (requires the ANN to have been trained)
-    1) Takes the weights in "./weights" and converts them to grayscale images where darker pixels correspond to a negative weight, and bright pixels correspond to a positive weight. 
+    1) ```python convert_weights_to_images.py```
+    	1) Takes the weights in "./weights" and converts them to grayscale images where darker pixels correspond to a negative weight, and bright pixels correspond to a positive weight. 
