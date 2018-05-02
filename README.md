@@ -7,8 +7,8 @@ Neural Network which takes as input images, and outputs the gender of the person
 3) Run the following commands:
 	```
 	1) python preprocess_images.py         | This will crop all the images and convert them into arrays.
-	2) javac GenderClassifier.java          | This will compile the Java code.
-	3) java GenderClassifier                | This will train and test the ANN.
+	2) javac GenderClassifier.java         | This will compile the Java code.
+	3) java GenderClassifier               | This will train and test the ANN.
 	4) python convert_weights_to_images.py | This will visualize the weights of the first hidden layer.
 	```
     
